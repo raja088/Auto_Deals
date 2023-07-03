@@ -1,0 +1,364 @@
+/* globle css start */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+a {
+  display: inline-block;
+}
+
+body {
+  font-family: "Poppins";
+}
+/* globle css end */
+/* Header Section Start Here  */
+header {
+  padding: 20px 116px 0px 102px;
+  /* width: 100px; */
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  gap: 35px;
+  list-style-type: none;
+
+  /* max-width: 1716px; */
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: -20px;
+}
+.nav li a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  color: #ffd322;
+}
+/* Header Section End Here  */
+/* Banner Section Start Here  */
+.banner {
+  background-image: url(../images/Banner.png);
+  background-size: cover;
+  background-position: center;
+  padding: 194px 0px 286px 0px;
+  position: relative;
+  margin: 0 auto;
+}
+.banner h1 {
+  color: #ffd322;
+  max-width: 847px;
+  font-size: 76px;
+  font-style: italic;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 44px;
+}
+.banner .container {
+  text-align: center;
+}
+.button {
+  max-width: 200px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #ffffff;
+  align-items: center;
+  border: 1px solid #ffd322;
+  border-radius: 7px;
+  padding: 15px 35px 15px 35px;
+}
+
+/* Banner Section End Here  */
+/* Choose Section Start Here  */
+.choose {
+  padding: 81px 0px 85px 0px;
+  background-color: #ffffff;
+}
+.choose h2 {
+  font-family: "Roboto";
+  color: #ffd322;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 85px;
+}
+.card-rows {
+  display: flex;
+  justify-content: space-between;
+}
+.card-rows h3 {
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 400px;
+  color: #333333;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  border: 1px solid #333333;
+  padding: 80px 15px 60px 15px;
+  text-align: center;
+  /* font-size: 15px;
+    font-weight: 400px; */
+}
+
+/* Choose Section End Here  */
+/* Avehicle Section Start Here  */
+.avehicle {
+  padding: 84px 0px 78px 0px;
+  background-image: url(../images/sectionimage.png);
+  background-size: cover;
+  background-position: center;
+}
+.avehicle h2 {
+  color: #ffd322;
+  font-family: "Roboto";
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 62px;
+}
+.selectbtn-rows {
+  display: flex;
+  /* width: 50%; */
+  justify-content: space-between;
+  margin: 0px 195px 50px 208px;
+}
+.selectbtn-rows select {
+  width: 170px;
+  background: transparent;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  background-image: url(../images/shepe.png);
+  background-repeat: no-repeat;
+  background-position: 90% center;
+  appearance: none;
+}
+.selectbtn-rows select option {
+  color: #000;
+}
+.avehicle .container {
+  text-align: center;
+}
+
+.buttn {
+  font-family: "Roboto";
+  text-decoration: none;
+  color: #ffffff;
+  padding: 14px 26px 14px 26px;
+  max-width: 214px;
+  text-decoration: none;
+  border: 1px solid #ffd322;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+/* Avehicle Section End Here  */
+/* fvehicle Section Start Here  */
+.fvehicle {
+  padding: 94px 0px 95px 0px;
+}
+.fvehicle h2 {
+  color: #ffd322;
+  font-family: "Roboto";
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 42px;
+}
+.fvehicle p {
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 146px;
+}
+.cars-rows {
+  display: flex;
+  justify-content: space-between;
+}
+.card-images {
+  min-height: 181px;
+}
+.cars-rows span {
+  background-color: #ffd322;
+  display: block;
+  max-width: 80px;
+  margin: 0 auto 28px;
+  text-align: center;
+  padding: 8px 15px 8px 9px;
+  border-radius: 7px;
+}
+.cars-rows p {
+  border-top: 2px solid #ffd322;
+  /* font-family: 'Poppins'; */
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 89px;
+  padding: 15px 0 0;
+}
+.fvehicle .container {
+  text-align: center;
+}
+.search-buttn {
+  padding: 12px 68px;
+  max-width: 214px;
+  border: 1px solid #333333;
+  /* text-align: center; */
+  margin: 0 auto;
+  border-radius: 8px;
+  font-family: "Roboto";
+  text-decoration: none;
+  color: #333333;
+  font-weight: 700;
+}
+
+/* fvehicle Section End Here  */
+/* About Us Section Start Here */
+.aboutus {
+  padding: 92px 0px 133px 0px;
+  background-image: url(../images/aboutsec.png);
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+}
+.aboutus h2 {
+  color: #ffd322;
+  font-family: "Roboto";
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 49px;
+}
+.center {
+  margin-bottom: 42px;
+  color: #ffffff;
+  text-align: center;
+}
+.mb span {
+  font-family: "Poppins";
+  color: #ffffff;
+  margin-bottom: 34px;
+  display: block;
+}
+.mb p {
+  font-family: "Poppins";
+  color: #ffffff;
+}
+.aboutus h3 {
+  font-family: "Poppins";
+  /* font-size: ; */
+  color: #ffffff;
+  margin-bottom: 43px;
+}
+
+.right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* About Us Section End Here */
+/* Footer Section Start Here */
+footer {
+  padding: 68px 0px 0px 0px;
+  background-color: #696969;
+}
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.abuotus h3 {
+  color: #ffd322;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #ffffff;
+  max-width: 144px;
+}
+.abuotus span {
+  color: #ffffff;
+}
+.abuotus p {
+  margin-bottom: 24px;
+  max-width: 236px;
+  color: #ffffff;
+}
+.links h3 {
+  color: #ffd322;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #ffffff;
+  max-width: 144px;
+}
+.links li {
+  list-style-type: none;
+}
+.links li a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.contactus h3 {
+  color: #ffd322;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #ffffff;
+  max-width: 144px;
+}
+.contactus span {
+  color: #ffffff;
+}
+.contactus p {
+  max-width: 253px;
+  margin-bottom: 21px;
+  color: #ffffff;
+}
+.contactus p i {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 5px;
+}
+.contactus a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 21px;
+}
+.footer-text a {
+  color: #ffd322;
+  text-decoration: none;
+  margin-bottom: 21px;
+}
+.footer-bottom {
+  padding: 35px 0px;
+  background-color: #ffd322;
+}
+
+.footer-text img {
+  margin-right: 5px;
+}
+.contactus img {
+  margin-right: 5px;
+}
+
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom ul {
+  display: flex;
+  list-style-type: none;
+  gap: 26px;
+}
+.footer-bottom ul li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+/* Footer Section End Here */
