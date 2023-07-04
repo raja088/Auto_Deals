@@ -18,34 +18,40 @@ body {
 /* globle css end */
 /* Header Section Start Here  */
 header {
-  padding: 20px 116px 0px 102px;
+  padding: 8px 32px;
   /* width: 100px; */
   position: absolute;
   z-index: 1;
   width: 100%;
 }
-.header-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.show {
+  background-color: #000;
+  margin-top: 16px;
+  z-index: 1000;
+  border-radius: 16px;
 }
 
-.nav ul {
-  display: flex;
-  gap: 35px;
-  list-style-type: none;
 
-  /* max-width: 1716px; */
+.LogoImg{
+  width: 150px;
 }
-.nav ul li a {
-  text-decoration: none;
-  color: #ffffff;
-  margin-right: -20px;
+.navbar-toggler{
+border: none;
+outline: none;
 }
-.nav li a:hover {
-  text-decoration: none;
-  color: #ffffff;
+.navbar-toggler:focus {
+  box-shadow: none;
+  }
+
+.navbar a {
   color: #ffd322;
+  display: flex;
+  justify-content: center;
+  
+}
+.navbar a:hover {
+  color: #ffffff;
+  
 }
 /* Header Section End Here  */
 /* Banner Section Start Here  */
@@ -67,6 +73,12 @@ header {
   text-align: center;
   margin-bottom: 44px;
 }
+@media only screen and (max-width: 600px) {
+  .banner h1 {
+    font-size: 48px;
+  }
+}
+
 .banner .container {
   text-align: center;
 }
@@ -97,6 +109,7 @@ header {
 .card-rows {
   display: flex;
   justify-content: space-between;
+  gap:16px
 }
 .card-rows h3 {
   font-family: "Roboto";
@@ -114,6 +127,14 @@ header {
   text-align: center;
   /* font-size: 15px;
     font-weight: 400px; */
+}
+@media only screen and (max-width: 550px) {
+  .card {
+    width: 100%;
+  }
+  .card-rows {
+    flex-direction: column;
+  }
 }
 
 /* Choose Section End Here  */
@@ -134,8 +155,11 @@ header {
 .selectbtn-rows {
   display: flex;
   /* width: 50%; */
-  justify-content: space-between;
-  margin: 0px 195px 50px 208px;
+  justify-content: space-evenly;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-bottom: 16px;
+  
 }
 .selectbtn-rows select {
   width: 170px;
@@ -185,7 +209,8 @@ header {
 }
 .cars-rows {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .card-images {
   min-height: 181px;
@@ -232,6 +257,9 @@ header {
   background-size: cover;
   background-position: center;
 }
+.Img{
+  width: 100%;
+}
 .aboutus h2 {
   color: #ffd322;
   font-family: "Roboto";
@@ -275,7 +303,9 @@ footer {
 }
 .top-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 16px 0;
 }
 .abuotus h3 {
   color: #ffd322;
@@ -336,10 +366,17 @@ footer {
   margin-bottom: 21px;
 }
 .footer-bottom {
-  padding: 35px 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 16px 32px 0 32px;
   background-color: #ffd322;
 }
-
+.nav-bottom ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 .footer-text img {
   margin-right: 5px;
 }
@@ -347,7 +384,7 @@ footer {
   margin-right: 5px;
 }
 
-.footer-bottom .container {
+.footer-bottom .container-fluid{
   display: flex;
   justify-content: space-between;
 }

@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Auto Deals</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Home</title>
@@ -16,24 +18,27 @@
   <body>
     <!-- Header Section Start Here -->
     <header>
-      <div class="header-top">
-        <div class="header-logo">
-          <a href="">
-            <img src="./images/rad_logo.png" />
-          </a>
+
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <img src="./images/rad_logo.png" alt="" class="LogoImg" />
+            <button type="button" class="navbar-toggler navbar-light" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                     <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto ">
+                    <a href="#" class="nav-item nav-link active" >HOME</a>
+                    <a href="#" class="nav-item nav-link">INVENTORY</a>
+                    <a href="#" class="nav-item nav-link">APPLY FOR CREDIT</a>
+                    <a href="#" class="nav-item nav-link " >CAR FINDER</a>
+                    <a href="#" class="nav-item nav-link " >WE BUY CARS</a>
+                    <a href="#" class="nav-item nav-link " >DIRECTIONS</a>
+                    <a href="#" class="nav-item nav-link " >CONTACT US</a>
+              
+                </div>
+            </div>
         </div>
-        <div class="nav">
-          <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">INVENTORY</a></li>
-            <li><a href="">APPLY FOR CREDIT</a></li>
-            <li><a href="">CAR FINDER</a></li>
-            <li><a href="">WE BUY CARS</a></li>
-            <li><a href="">DIRECTIONS</a></li>
-            <li><a href="">CONTACT US</a></li>
-          </ul>
-        </div>
-      </div>
+    </nav>
     </header>
     <!-- Header Section End Here -->
     <!--Banner start here-->
@@ -109,23 +114,23 @@
         <h2>FEATURED VEHICLES</h2>
         <p>Start with a must-have and discover matches along the way</p>
         <div class="cars-rows">
-          <div class="car-row">
+          <div>
             <div class="card-images">
-              <img src="./images/car1.png" alt="" />
+              <img src="./images/car1.png" alt="" class="Img"/>
             </div>
             <span>$217.85</span>
             <p>2014 Mercedes-Benz C-Class</p>
           </div>
-          <div class="car-row">
+          <div>
             <div class="card-images">
-              <img src="./images/car2.png" alt="" />
+              <img src="./images/car2.png" alt="" class="Img"/>
             </div>
             <span>$217.85</span>
             <p>2016 Audi A -Class</p>
           </div>
-          <div class="car-row">
+          <div>
             <div class="card-images">
-              <img src="./images/car3.png" alt="" />
+              <img src="./images/car3.png" alt="" class="Img" />
             </div>
             <span>$217.85</span>
             <p>2015 Audi C -Class</p>
@@ -171,7 +176,7 @@
             </p>
           </div>
           <div class="right-image">
-            <img src="./images/aboutcar.png" alt="" />
+            <img src="./images/aboutcar.png" alt="" class="Img" />
           </div>
         </div>
       </div>
@@ -224,13 +229,13 @@
             <img src="./images/youtube logo.png" alt="" />
             <img src="./images/twiter logo.png" alt="" />
           </div>
-          <div class="map">
+          <div class="map" style="padding-top:16px ;">
             <img src="./images/map.png" alt="" />
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <div class="container">
+        <div class="container-fluid">
           <div class="ptext">
             <p>© 2017 Radical Auto Deals All Rights Reserved</p>
           </div>
